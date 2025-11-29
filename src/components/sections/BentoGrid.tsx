@@ -87,5 +87,5 @@ const BentoGrid = () => {
     </section>
   );
 };
-
+ 
 export default BentoGrid;

@@ -7,7 +7,7 @@ const LogoCloud = () => {
     { name: "Honda", src: "/images/logos/honda.png" },
     { name: "Bajaj", src: "/images/logos/bajaj.png" },
     { name: "TVS", src: "/images/logos/tvs.png" },
-    { name: "Royal Enfield", src: "/images/logos/royal-enfield.png" },
+    { name: "Royal Enfield", src: "/images/logos/royal-enfield.png"  },
     { name: "Yamaha", src: "/images/logos/yamaha.png" },
     { name: "KTM", src: "/images/logos/ktm.png" },
     { name: "Ather", src: "/images/logos/ather.png" },

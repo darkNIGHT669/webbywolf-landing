@@ -1,5 +1,6 @@
-@import "tailwindcss/preflight";
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --primary-blue: #2563EB;
@@ -11,20 +12,19 @@
   --bg-dark: #1E293B;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    @apply scroll-smooth;
+  }
 
-body {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: var(--text-dark);
-  background-color: #ffffff;
+  body {
+    @apply text-[#1E293B] bg-white;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
 }
 
 @layer components {

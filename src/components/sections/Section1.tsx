@@ -68,7 +68,7 @@ const Section1 = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-[600px]">
+        <div className="w-full lg:w-1/2 relative h-[400px] lg:h-[600px] overflow-hidden">
           <Image
             src="/images/section1-bikes.jpg"
             alt="Motorcycle showroom"

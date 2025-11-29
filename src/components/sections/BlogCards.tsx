@@ -5,7 +5,7 @@ import SectionHeader from "../ui/SectionHeader";
 const BlogCards = () => {
   const cards = [
     {
-      image: "/images/blog-1.jpg",
+      image: "/images/blog-1.jpg", 
       title: "Lorem ipsum dolor sit amet consectetur.",
       description: "Lorem ipsum dolor sit amet consectetur. Nunc gravida consequat faucibus cursus nisi. Nunc montes molestie a vitae vulputate.",
     },

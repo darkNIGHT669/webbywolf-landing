@@ -27,7 +27,7 @@ const AppDownload = () => {
                   width={140}
                   height={42}
                   className="h-12 w-auto"
-                />
+                /> 
               </a>
               <a href="#" className="inline-block">
                 <Image
@@ -45,7 +45,7 @@ const AppDownload = () => {
           <div className="w-full lg:w-1/2 flex justify-center">
             <div className="relative w-80 h-96">
               <Image
-                src="/images/phone-mockup.png"
+                src="/images/phone-mockup"
                 alt="App mockup"
                 fill
                 className="object-contain"
