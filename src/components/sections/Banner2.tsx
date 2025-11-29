@@ -2,9 +2,9 @@ import React from "react";
 
 const Banner2 = () => {
   return (
-    <section className="w-full px-4 md:px-8">
+    <section className="w-full px-10 md:px-14">
       {/* Top Blue Line */}
-      <div className="w-full h-1 bg-[#2563EB]"></div>
+     {/* <div className="w-full h-1 bg-[#2563EB]"></div>*/}
       
       <div className="max-w-6xl mx-auto relative rounded-b-2xl overflow-hidden">
         {/* Background Image */}

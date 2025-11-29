@@ -29,7 +29,7 @@ const LogoCloud = () => {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="w-32 h-16 relative grayscale hover:grayscale-0 transition-all duration-300"
+              className="w-32 h-16 relative  transition-all duration-300"
             >
               <Image
                 src={logo.src}

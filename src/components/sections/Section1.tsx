@@ -23,8 +23,8 @@ const Section1 = () => {
   ];
 
   return (
-    <section className="w-full bg-white border-l-4 border-[#2563EB]">
-      <div className="flex flex-col lg:flex-row">
+    <section className="w-full bg-white border-l-4 border-[#2563EB] overflow-hidden mt-12 md:mt-16 lg:mt-20">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row">
         {/* Left Content */}
         <div className="w-full lg:w-1/2 px-4 md:px-8 lg:px-16 py-12 lg:py-20">
           <p className="tagline italic">Lorem ipsum dolor sit</p>
@@ -68,12 +68,14 @@ const Section1 = () => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full lg:w-1/2 relative h-[400px] lg:h-[600px] overflow-hidden">
+        <div className="w-full lg:w-1/2 relative h-[350px] md:h-[450px] lg:h-[550px]">
           <Image
             src="/images/section1-bikes.jpg"
             alt="Motorcycle showroom"
             fill
             className="object-cover"
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            priority
           />
         </div>
       </div>

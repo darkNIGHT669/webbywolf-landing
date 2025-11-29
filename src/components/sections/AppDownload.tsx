@@ -43,9 +43,9 @@ const AppDownload = () => {
 
           {/* Right - Phone Mockup */}
           <div className="w-full lg:w-1/2 flex justify-center">
-            <div className="relative w-80 h-96">
+            <div className="relative w-96 h-96">
               <Image
-                src="/images/phone-mockup"
+                src="/images/phone-mockup1.jpg"
                 alt="App mockup"
                 fill
                 className="object-contain"
